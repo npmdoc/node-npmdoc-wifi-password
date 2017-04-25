@@ -61,12 +61,50 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.wifi-password">module wifi-password</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.wifi-password.wifi-password">
+            function <span class="apidocSignatureSpan"></span>wifi-password
+            <span class="apidocSignatureSpan">(&#x27;./lib/linux&#x27;)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.wifi-password" id="apidoc.module.wifi-password">module wifi-password</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.wifi-password.wifi-password" id="apidoc.element.wifi-password.wifi-password">
+        function <span class="apidocSignatureSpan"></span>wifi-password
+        <span class="apidocSignatureSpan">(&#x27;./lib/linux&#x27;)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ssid =&#x3e; {
+	let fn = require(&#x27;./lib/linux&#x27;);
+
+	if (process.platform === &#x27;darwin&#x27;) {
+		fn = require(&#x27;./lib/osx&#x27;);
+	}
+
+	if (process.platform === &#x27;win32&#x27;) {
+		fn = require(&#x27;./lib/win&#x27;);
+	}
+
+	if (ssid) {
+		return fn(ssid);
+	}
+
+	return wifiName().then(fn);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
