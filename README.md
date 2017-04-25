@@ -1,9 +1,14 @@
-# api documentation for  [wifi-password (v3.0.0)](https://github.com/kevva/wifi-password#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-wifi-password.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-wifi-password) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-wifi-password.svg)](https://travis-ci.org/npmdoc/node-npmdoc-wifi-password)
+# npmdoc-wifi-password
+
+#### basic api documentation for  [wifi-password (v3.0.0)](https://github.com/kevva/wifi-password#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-wifi-password.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-wifi-password) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-wifi-password.svg)](https://travis-ci.org/npmdoc/node-npmdoc-wifi-password)
+
 #### Get current wifi password
 
-[![NPM](https://nodei.co/npm/wifi-password.png?downloads=true)](https://www.npmjs.com/package/wifi-password)
+[![NPM](https://nodei.co/npm/wifi-password.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/wifi-password)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-wifi-password/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-wifi-password_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-wifi-password/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-wifi-password/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-wifi-password/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-wifi-password/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-wifi-password/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-wifi-password/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Kevin Mårtensson",
-        "email": "kevinmartensson@gmail.com",
         "url": "github.com/kevva"
     },
     "bugs": {
@@ -55,17 +59,14 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "kevva",
-            "email": "kevinmartensson@gmail.com"
+            "name": "kevva"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "wifi-password",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/kevva/wifi-password.git"
@@ -76,19 +77,10 @@
     "version": "3.0.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module wifi-password](#apidoc.module.wifi-password)
-
-
-
-# <a name="apidoc.module.wifi-password"></a>[module wifi-password](#apidoc.module.wifi-password)
 
 
 
